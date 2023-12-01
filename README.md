@@ -20,3 +20,6 @@ function checkEmailAvailability() {
     });
 }
 
+
+The checkEmailAvailability JavaScript function is triggered when the user blurs out of the email input field.
+The JavaScript function sends an AJAX request to check_email.php with the email as data.
