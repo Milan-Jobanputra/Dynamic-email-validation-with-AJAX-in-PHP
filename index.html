@@ -15,4 +15,20 @@
         <button type="submit">Submit</button>
     </form>
 </body>
+<script>
+
+    function checkEmailAvailability() {
+    var email = $("#email").val();
+
+    $.ajax({
+        type: "POST",
+        url: "check_email.php",
+        data: { email: email },
+        success: function(response) {
+            $("#emailAvailability").html(response);
+        }
+    });
+}
+
+</script>
 </html>
