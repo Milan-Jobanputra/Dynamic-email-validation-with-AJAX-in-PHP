@@ -25,3 +25,5 @@ The checkEmailAvailability JavaScript function is triggered when the user blurs 
 The JavaScript function sends an AJAX request to check_email.php with the email as data.
 
 check_email.php performs basic email validation and checks if the email is available (you should replace this logic with your actual validation and database check).
+
+Here's a simple example provides of what you might include in the process.php, You can download it.
