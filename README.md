@@ -27,3 +27,5 @@ The JavaScript function sends an AJAX request to check_email.php with the email 
 check_email.php performs basic email validation and checks if the email is available (you should replace this logic with your actual validation and database check).
 
 Here's a simple example provides of what you might include in the process.php, You can download it.
+
+Remember that the actual processing in process.php will depend on what you want to do with the submitted data (e.g., saving it to a database, sending emails, etc.). Modify the code accordingly based on your application's requirements.
